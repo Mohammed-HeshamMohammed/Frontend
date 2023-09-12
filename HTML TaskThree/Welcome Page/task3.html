@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" type="text/css" href="task-3.css">
+
+</head>
+<body>
+    <h1>Welcome Page</h1>
+    <p><br></br>Enter your information below:<br></br></p>
+    
+    <form id="userForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br><br><br>
+
+        <label for="birthYear">Birth Year:</label>
+        <input type="number" id="birthYear" required><br><br><br>
+
+        <button type="button" onclick="displayWelcomeMessage()">Submit</button>
+    </form>
+
+    <p id="welcomeMessage"></p>
+    
+    <script src="task3.js"></script>
+
+</body>
+</html>
