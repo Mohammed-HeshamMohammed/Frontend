@@ -1,0 +1,217 @@
+
+
+#header {
+    background-color: #599bac;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Apply a flexbox layout to the #linksbar container */
+#linksbar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  float:right; /* Center text within the container */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the login form container */
+#loginform {
+  background-color: #f2f2f2; /* Background color */
+  border: 1px solid #ddd; /* Border */
+  padding: 30px; /* Padding */
+  width: 300px; /* Set a fixed width */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  direction: ltr; /* Left-to-right text direction */
+}
+
+/* Style input fields */
+#loginform input[type="text"],
+#loginform input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding */
+  margin-bottom: 10px; /* Spacing between fields */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Style the "remember me" checkbox */
+#loginform input[type="checkbox"] {
+  margin-bottom: 10px; /* Spacing between checkbox and button */
+}
+
+/* Style the login button */
+#loginform button {
+  background-color: #0077cc; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  display: block; /* Make the button a block-level element */
+  margin-top: 10px; /* Add spacing above the button */
+}
+
+/* Hover effect for the login button */
+#loginform button:hover {
+  background-color: #0055aa; /* Button background color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the site menu links */
+ul {
+  list-style: none; /* Remove the default list style */
+  padding: 0; /* Remove default padding */
+  float :left;
+}
+
+li {
+  border: 2px solid #000000; /* Add a border around each list item */
+  margin: 3px ; /* Add some spacing between each list item */
+  background-color: #575555;
+  border-radius: 10px;
+  width: 250px;
+  margin-bottom:5px;
+  float: top;
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Make links a block element */
+  padding: 10px; /* Add padding to the links for spacing */
+  color: #c51414; /* Set the text color for the links */
+  text-align:center;
+}
+
+/* Style link hover state */
+a:hover {
+  background-color: #333; /* Change the background color on hover */
+  color: #554c4c; /* Change text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#customers th {
+  background-color: #333; /* Header background color */
+  color: #fff; /* Header text color */
+  padding: 10px; /* Add padding to header cells */
+  width: 1000px;
+}
+
+/* Style even rows (tbody tr:nth-child(even)) */
+#customers tbody tr:nth-child(even) {
+  background-color: #599bac; /* Background color for even rows */
+}
+
+/* Style odd rows (tbody tr:nth-child(odd)) */
+#customers tbody tr:nth-child(odd) {
+  background-color: #fff; /* Background color for odd rows */
+}
+
+/* Style table cells (td) */
+#customers td {
+  padding: 10px; /* Add padding to cells */
+  border: 1px solid #599bac; /* Add a border to cells */
+}
+
+
+
+
+
+
+
+
+#aboutus{
+width:600px;
+}
+
+
+#titles{
+  text-align: center;
+}
+
+
+#titles p {
+  display: inline-block;
+  margin-left: 60px; /* Optional: Remove default paragraph margin */
+}
