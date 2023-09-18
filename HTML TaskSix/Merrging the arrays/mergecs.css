@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: calc(100% - 20px);
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button#merge-button {
+  background-color: #3498db;
+  color: white;
+}
+
+button#merge-button:hover {
+  background-color: #2980b9;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #3498db;
+}
