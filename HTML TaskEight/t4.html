@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 4</title>
+  <script>
+    const studentSet = new Set();
+    studentSet.add('Alice');
+    studentSet.add('Boby');
+    studentSet.add('Alice');  // Adding a repeated name
+
+    console.log('Set values:', [...studentSet]);  // Using spread operator
+    console.log('Set values using for...of:');
+    for (const student of studentSet) 
+    {
+      console.log(student);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

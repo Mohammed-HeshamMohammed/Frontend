@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 7</title>
+  <script>
+    class Employee 
+    {
+      constructor() 
+      {
+        this.name = '';
+        this.dept = 'general';
+      }
+    }
+
+    class Manager extends Employee 
+    {
+      constructor() 
+      {
+        super();
+        this.reports = [];
+      }
+    }
+
+    class WorkerBee extends Employee 
+    {
+      constructor() 
+      {
+        super();
+        this.projects = [];
+      }
+    }
+
+    class SalesPerson extends WorkerBee 
+    {
+      constructor() 
+      {
+        super();
+        this.quota = 100;
+        this.dept = 'sales';
+      }
+    }
+
+    class Engineer extends WorkerBee 
+    {
+      constructor() 
+      {
+        super();
+        this.machine = '';
+        this.dept = 'engineering';
+      }
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

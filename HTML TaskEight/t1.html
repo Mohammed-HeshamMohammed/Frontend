@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1</title>
+  <script>
+    const arr = ['a', 'b', 'c'];
+
+    // Using for...in
+    console.log('Using for...in:');
+    for (const index in arr) 
+    {
+      console.log(index, arr[index]);
+    }
+
+    // Using for...of
+    console.log('\nUsing for...of:');
+    for (const element of arr) 
+    {
+      console.log(element);
+    }
+
+    // Using forEach
+    console.log('\nUsing forEach:');
+    arr.forEach((element, index) => {
+      console.log(index, element);
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>
