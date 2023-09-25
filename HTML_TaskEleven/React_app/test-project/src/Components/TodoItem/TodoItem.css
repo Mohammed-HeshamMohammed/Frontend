@@ -1,0 +1,26 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+  }
+  
+  .todo-item .delete-button {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .todo-item .delete-button:hover {
+    color: #c82333;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+  }
+  

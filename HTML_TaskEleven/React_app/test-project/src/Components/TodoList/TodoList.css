@@ -1,0 +1,15 @@
+.todo-list {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .todo-list h2 {
+    text-align: center;
+  }
+  
+  .todo-list ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
