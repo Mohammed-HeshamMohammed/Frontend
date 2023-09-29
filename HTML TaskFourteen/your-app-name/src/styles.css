@@ -1,0 +1,53 @@
+
+body {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Add this CSS to your styles.css file */
+
+/* Custom CSS for country boxes */
+.country-box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.country-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.country-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.country-box ul li {
+  margin-bottom: 8px;
+}
+
+
+.country-box.uk {
+  background-color: #28a745;
+  color: white;
+}
+
+.country-box.us {
+  background-color: #007bff;
+  color: white;
+}
+
+.country-box.mars {
+  background-color: #dc3545;
+  color: white;
+}
