@@ -1,0 +1,29 @@
+<div class="header">
+  <div class="logo">Your Logo</div>
+  <div class="nav">
+    <div class="cart-icon" (click)="toggleCartView()">
+      <i class="fa fa-shopping-cart"></i>
+      <span class="badge">{{ cartItemCount }}</span>
+    </div>
+    <div class="favorite-icon" (click)="toggleFavoriteView()">
+      <i class="fa fa-heart"></i>
+      <span class="badge">{{ favoriteItemCount }}</span>
+    </div>
+  </div>
+</div>
+
+<!-- Cart View -->
+<div *ngIf="cartViewVisible" class="cart-view">
+  <div class="cart-items">
+    <p>Your Cart:</p>
+    <!-- Display cart items here -->
+  </div>
+</div>
+
+<!-- Favorite View -->
+<div *ngIf="favoriteViewVisible" class="favorite-view">
+  <div class="favorite-items">
+    <p>Your Favorites:</p>
+    <!-- Display favorite items here -->
+  </div>
+</div>
