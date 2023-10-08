@@ -55,6 +55,46 @@ function Home() {
                       <div className="image-name">John Wick Chapter3</div>
                     </div>
                   </div>
+                  <div className="carousel-item">
+                    <div className="image-container">
+                      <img
+                        src={process.env.PUBLIC_URL + '/images/dune.jpg'}
+                        className="d-block w-100"
+                        alt="DUNE"
+                      />
+                      <div className="image-name">DUNE</div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="image-container">
+                      <img
+                        src={process.env.PUBLIC_URL + '/images/godz.jpg'}
+                        className="d-block w-100"
+                        alt="Godzilla"
+                      />
+                      <div className="image-name">Godzilla</div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="image-container">
+                      <img
+                        src={process.env.PUBLIC_URL + '/images/bee.jpg'}
+                        className="d-block w-100"
+                        alt="BumbleBee"
+                      />
+                      <div className="image-name">BumbleBee</div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="image-container">
+                      <img
+                        src={process.env.PUBLIC_URL + '/images/snw.jpg'}
+                        className="d-block w-100"
+                        alt="Spider-Man No Way Home"
+                      />
+                      <div className="image-name">Spider-Man No Way Home</div>
+                    </div>
+                  </div>
                 </div>
                 <button
                   className="carousel-control-prev"

@@ -70,7 +70,7 @@ function Registeration() {
   
   return (
     <div className="register container  w-50 p-0 mt-5 shadow-lg">
-      <div className="image w-100 mt-10 p-1 position-relative">
+      <div className="image position-relative">
         <h2 className="position-absolute text-dark fs-1">Register</h2>
       </div>
       <div className="form mt-4 p-3 mb-3">

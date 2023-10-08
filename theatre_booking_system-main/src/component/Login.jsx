@@ -38,7 +38,7 @@ function Login() {
   function handleLogin(e) {
     e.preventDefault();
     if (formValidation()) {
-      navigate("/home/reserveSeats");
+      navigate("/home");
     }
   }
   return (
