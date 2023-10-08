@@ -1,0 +1,41 @@
+nav {
+  padding: 5px;
+  font-weight: 800;
+  top: 15px;
+}
+nav .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  margin-left: 10px;
+  transition: transform 0.3s;
+  color: white;
+}
+
+nav ul li:hover {
+  transform: scale(1.1) translateY(10px); /* Scale and move down on hover */
+
+  
+}
+
+
+/* Style the cart icon */
+nav .cart-icon {
+  display: flex;
+  }
+  .cart-icon:hover {
+    color: blue; /* Change the color to your desired hover color */
+  }
