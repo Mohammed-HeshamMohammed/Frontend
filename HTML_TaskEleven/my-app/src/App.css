@@ -1,0 +1,44 @@
+nav{
+  height:25%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: darkgrey;
+}
+.btn{
+  margin-top: 22px;
+  height: 28px;
+  width: 55px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(50, 47, 47);
+}
+.cards{
+  background-color: rgba(164, 164, 164, 0.492);
+  border: 3px solid black;
+  text-align: center;
+  
+}
+.movieDetails{
+  display: flex;
+  justify-content:space-evenly ;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.links{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(255, 0, 0);
+}
+.bttn{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  margin-top: 22px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+nav {
+  background-color: black !important;
+  padding: 5px;
+}
+nav .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  margin-left: 10px;
+
+}
+nav ul  a:hover {
+color: brown !important;
+}
+
+
+/* Style the cart icon */
+nav .cart-icon {
+  display: flex;
+  }
+  .cart-icon:hover {
+    color: blue; /* Change the color to your desired hover color */
+  }
