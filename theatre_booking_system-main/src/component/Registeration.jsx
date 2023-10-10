@@ -54,7 +54,7 @@ function Registeration() {
     e.preventDefault();
     if (validForm()) {
       alert("Form submitted successfully!");
-      nav("/login")
+      nav("/")
     }
     let FormData = { name, password, email };
    
